@@ -1,0 +1,58 @@
+<html>
+<head>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$("#hide1").click(function(){
+			$("#kotak1").hide(3000)
+		})
+		$("#show1").click(function(){
+			$("#kotak1").show(3000)
+		})
+		
+		$("#hide2").click(function(){
+			$("#kotak2").hide(3000)
+		})
+		$("#show2").click(function(){
+			$("#kotak2").show(3000)
+		})
+		
+		});
+	</script>
+	<style type="text/css">
+		#kotak1 {
+			width: 200px;
+			height: 300px;
+			background : white;
+			border: 1px solid black;
+			padding: 5px;
+		}
+		#kotak2 {
+			width: 200px;
+			height: 300px;
+			background : white;
+			border: 1px solid black;
+			padding: 5px;
+		}
+	</style>
+</head>
+<body><center>
+	<h1>Tombol Sembunyi dan Tampilkan</h1>
+	<button id="hide1">Sembunyikan</button>
+	<button id="show1">Tampilkan</button>
+	<br><br>
+	<button id="hide2">Sembunyikan</button>
+	<button id="show2">Tampilkan</button>
+	<br><br>
+	<table cellspacing="20px">
+		<td>
+			<p id="kotak1"><img width="200px" src="foto/1.png"></p>
+		</td>
+		<td>
+			<p id="kotak2"><img width="200px" src="foto/2.png"></p>
+		</td>
+	</table>
+</center>
+	
+</body>
+</html>

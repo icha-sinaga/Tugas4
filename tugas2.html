@@ -1,0 +1,30 @@
+<html>
+<head>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$(".kotak").dblclick(function(){
+			$(this).css({background:"green"});});
+		});
+	</script>
+	<style type="text/css">
+		.kotak {
+			width: 100px;
+			height: 100px;
+			background : yellow;
+			padding: 5px;
+			float: left;
+			margin-right: 15px;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Events Double Click untuk Mengubah Warna</h1>
+	<p> Double click pada setiap kotak untuk mengubah warna kotak</p>
+	<div class="kotak"></div> 
+	<div class="kotak"></div> 
+	<div class="kotak"></div> 
+	<div class="kotak"></div> 
+</body>
+</html>
